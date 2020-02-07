@@ -1,0 +1,52 @@
+body {
+  background: url(https://i.pinimg.com/originals/44/c3/b3/44c3b3d2386aaf16e7b8d72e84dd0858.jpg);
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+
+#build-list {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+#build-art {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+}
+
+
+.build-list-item {
+   border: 3px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 8px;
+   background-color: rgba(50, 115, 220, 0.3);
+   position: static;
+
+
+
+}
+
+.build-list-item:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+
+
+/* select all p tags that have class artist-name
+ */
+p {
+  margin: 0;
+}
+
+.build-list-item .build-name {
+  font-size: .9rem
+}
