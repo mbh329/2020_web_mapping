@@ -6,4 +6,4 @@ $('.build-list-item').on('click', function() {
 
   $('#build-art').empty()
 
-  $('#build-art').css('background-image', `url(${buildImageUrl})`)
+  $('#build-art').css('background-image', `url(${buildImageUrl})`)}
