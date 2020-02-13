@@ -14,11 +14,11 @@ body {
 
 #build-art {
   width: 50%;
-height: 300px;
-display: inline-block;
-background-size: contain;
-background-repeat: no-repeat;
-background-position: center;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 
 
 }
